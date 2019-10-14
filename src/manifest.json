@@ -53,8 +53,10 @@
         "items": [
             "net.cyan-stivy.sketchPlugin.MarginSymbols-showAllMarginSymbols-command-identifier",
             "net.cyan-stivy.sketchPlugin.MarginSymbols-hideAllMarginSymbols-command-identifier",
+            "-",
             "net.cyan-stivy.sketchPlugin.MarginSymbols-showSelectedMarginSymbols-command-identifier",
             "net.cyan-stivy.sketchPlugin.MarginSymbols-hideSelectedMarginSymbols-command-identifier",
+            "-",
             "net.cyan-stivy.sketchPlugin.MarginSymbols-lockAllMarginSymbols-command-identifier",
             "net.cyan-stivy.sketchPlugin.MarginSymbols-unlockAllMarginSymbols-command-identifier"
         ]
