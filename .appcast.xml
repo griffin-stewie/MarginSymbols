@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>MarginSymbols</title>
+    <description>This plugin toggles 'Include in Instances' property for Symbols whose names begin with 'Margin'.</description>
+    <language>en</language>
+      <item>
+        <title>Version 0.3.2</title>
+        <description>
+          <![CDATA[
+            <ul>
+              <li>Published</li>
+            </ul>
+          ]]>
+        </description>
+        <enclosure url="https://github.com/griffin-stewie/MarginSymbols/releases/download/v0.3.2/MarginSymbols.sketchplugin.zip" sparkle:version="0.3.2" />
+      </item>
+  </channel>
+</rss>

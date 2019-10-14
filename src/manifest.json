@@ -1,0 +1,62 @@
+{
+    "$schema": "https://raw.githubusercontent.com/BohemianCoding/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+    "name": "MarginSymbols",
+    "description": "This plugin toggles 'Include in Instances' property for Symbols whose names begin with 'Margin'.",
+    "author": "griffin-stewie",
+    "homepage": "https://github.com/griffin-stewie/MarginSymbols",
+    "version": "0.3.2",
+    "identifier": "net.cyan-stivy.sketchPlugin.MarginSymbols",
+    "icon": "icon.png",
+    "appcast": "https://raw.githubusercontent.com/griffin-stewie/MarginSymbols/master/.appcast.xml",
+    "compatibleVersion": "58",
+    "bundleVersion": 1,
+    "commands": [
+        {
+            "name": "Show All Margin Symbols",
+            "identifier": "net.cyan-stivy.sketchPlugin.MarginSymbols-showAllMarginSymbols-command-identifier",
+            "handler": "showAllMarginSymbols",
+            "script": "main.js"
+        },
+        {
+            "name": "Hide All Margin Symbols",
+            "identifier": "net.cyan-stivy.sketchPlugin.MarginSymbols-hideAllMarginSymbols-command-identifier",
+            "handler": "hideAllMarginSymbols",
+            "script": "main.js"
+        },
+        {
+            "name": "Show Selected Margin Symbols",
+            "identifier": "net.cyan-stivy.sketchPlugin.MarginSymbols-showSelectedMarginSymbols-command-identifier",
+            "handler": "showSelectedMarginSymbols",
+            "script": "main.js"
+        },
+        {
+            "name": "Hide Selected Margin Symbols",
+            "identifier": "net.cyan-stivy.sketchPlugin.MarginSymbols-hideSelectedMarginSymbols-command-identifier",
+            "handler": "hideSelectedMarginSymbols",
+            "script": "main.js"
+        },
+        {
+            "name": "Lock All Margin Symbols",
+            "identifier": "net.cyan-stivy.sketchPlugin.MarginSymbols-lockAllMarginSymbols-command-identifier",
+            "handler": "lockAllMarginSymbols",
+            "script": "main.js"
+        },
+        {
+            "name": "Unlock All Margin Symbols",
+            "identifier": "net.cyan-stivy.sketchPlugin.MarginSymbols-unlockAllMarginSymbols-command-identifier",
+            "handler": "unlockAllMarginSymbols",
+            "script": "main.js"
+        }
+    ],
+    "menu": {
+        "title": "Margin Symbols",
+        "items": [
+            "net.cyan-stivy.sketchPlugin.MarginSymbols-showAllMarginSymbols-command-identifier",
+            "net.cyan-stivy.sketchPlugin.MarginSymbols-hideAllMarginSymbols-command-identifier",
+            "net.cyan-stivy.sketchPlugin.MarginSymbols-showSelectedMarginSymbols-command-identifier",
+            "net.cyan-stivy.sketchPlugin.MarginSymbols-hideSelectedMarginSymbols-command-identifier",
+            "net.cyan-stivy.sketchPlugin.MarginSymbols-lockAllMarginSymbols-command-identifier",
+            "net.cyan-stivy.sketchPlugin.MarginSymbols-unlockAllMarginSymbols-command-identifier"
+        ]
+    }
+}
