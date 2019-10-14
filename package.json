@@ -7,6 +7,7 @@
   },
   "skpm": {
     "name": "MarginSymbols",
+    "repository": "https://github.com/griffin-stewie/MarginSymbols",
     "manifest": "src/manifest.json",
     "main": "MarginSymbols.sketchplugin",
     "assets": [
