@@ -1,15 +1,18 @@
 {
   "name": "MarginSymbols",
-  "description": "",
+  "description": "This plugin toggles 'Include in Instances' property for Symbols whose names begin with 'Margin'.",
   "version": "0.4.3",
   "engines": {
     "sketch": ">=49.0"
   },
   "skpm": {
     "name": "MarginSymbols",
+    "author": "griffin-stewie",
+    "identifier": "net.cyan-stivy.sketchPlugin.MarginSymbols",
     "repository": "https://github.com/griffin-stewie/MarginSymbols",
     "manifest": "src/manifest.json",
     "main": "MarginSymbols.sketchplugin",
+    "homepage": "https://github.com/griffin-stewie/MarginSymbols",
     "assets": [
       "assets/**/*"
     ]
