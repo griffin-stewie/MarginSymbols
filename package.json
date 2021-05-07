@@ -1,7 +1,7 @@
 {
   "name": "MarginSymbols",
   "description": "This plugin toggles 'Include in Instances' property for Symbols whose names begin with 'Margin'.",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "engines": {
     "sketch": ">=49.0"
   },
